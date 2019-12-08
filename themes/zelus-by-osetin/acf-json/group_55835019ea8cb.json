@@ -1,0 +1,417 @@
+{
+    "key": "group_55835019ea8cb",
+    "title": "Theme Settings - General",
+    "fields": [
+        {
+            "key": "field_55a03086851a1",
+            "label": "Social and Contacts",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_55a03093851a2",
+            "label": "Social Links",
+            "name": "social_links",
+            "type": "repeater",
+            "instructions": "Select social networks you want to link to",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Row",
+            "collapsed": "",
+            "sub_fields": [
+                {
+                    "key": "field_55a0345b851a3",
+                    "label": "Social Network",
+                    "name": "social_network",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "choices": {
+                        "instagram": "Instagram",
+                        "tumblr": "Tumblr",
+                        "google-plus": "Google Plus",
+                        "linkedin": "LinkedIn",
+                        "flickr": "Flickr",
+                        "twitter": "Twitter",
+                        "facebook": "Facebook",
+                        "pinterest": "Pinterest",
+                        "youtube": "YouTube",
+                        "vine": "Vine",
+                        "blogger": "Blogger",
+                        "vimeo": "Vimeo",
+                        "vkontakte": "Vkontakte",
+                        "odnoklassniki": "Odnoklassniki"
+                    },
+                    "default_value": [],
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_55a034cd851a4",
+                    "label": "Social Page URL",
+                    "name": "social_page_url",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_55e87161f6290",
+            "label": "Show Social Icons in Footer",
+            "name": "show_footer_social_icons",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "multiple": 0,
+            "allow_null": 0,
+            "choices": {
+                "yes": "Yes",
+                "no": "No"
+            },
+            "default_value": [
+                "yes"
+            ],
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "return_format": "value"
+        },
+        {
+            "key": "field_55e87198f6291",
+            "label": "Show Social Icons in Header",
+            "name": "show_header_social_icons",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "multiple": 0,
+            "allow_null": 0,
+            "choices": {
+                "yes": "Yes",
+                "no": "No"
+            },
+            "default_value": {
+                "yes": "yes"
+            },
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "return_format": "value",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
+            "key": "field_586ed84eb039e",
+            "label": "Main Phone",
+            "name": "main_phone",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_586ed860b039f",
+            "label": "Main Address",
+            "name": "main_address",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5a0e3c965a2eb",
+            "label": "Slideout Form",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_58db44402c15a",
+            "label": "Show Peeking\/Slideout Form",
+            "name": "show_peeking_form",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Show Peeking Form",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_58db44792c15b",
+            "label": "Form Position",
+            "name": "peeking_form_position",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_58db44402c15a",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "multiple": 0,
+            "allow_null": 0,
+            "choices": {
+                "right": "Right",
+                "left": "Left",
+                "bottom: Bottom": "bottom: Bottom"
+            },
+            "default_value": [
+                "right"
+            ],
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "return_format": "value"
+        },
+        {
+            "key": "field_58db44ac2c15c",
+            "label": "Form Trigger Label",
+            "name": "peeking_form_trigger_label",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_58db44402c15a",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Schedule a Callback",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_58db44bb2c15d",
+            "label": "Form Shortcode",
+            "name": "peeking_form_shortcode",
+            "type": "text",
+            "instructions": "Shortcode generated by Contact Form 7",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_58db44402c15a",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5a0e3cc85a2ec",
+            "label": "Blog",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_58bc9da5859a3",
+            "label": "Layout Type for Archive",
+            "name": "layout_type_for_index_option",
+            "type": "select",
+            "instructions": "Layout Type for Index Posts",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "masonry_2": "Masonry - 2 columns",
+                "masonry_3": "Masonry - 3 columns",
+                "masonry_4": "Masonry - 4 columns",
+                "full_width": "Full Width Posts",
+                "half_image": "Half Image & Half Text"
+            },
+            "default_value": [
+                "masonry_2"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ac2f8a3941b0",
+            "label": "Share post code",
+            "name": "share_post_code",
+            "type": "text",
+            "instructions": "You can add code to generate share buttons, we use http:\/\/www.addthis.com\/ service to generate share buttons for the demo. You need to enter a url of the script you receive from addthis.com, it looks something like this: \/\/s7.addthis.com\/js\/300\/addthis_widget.js#pubid=ra-XXXXXXXXXXXXXX",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5acbc29e224e8",
+            "label": "Show Author on Featured Image",
+            "name": "show_author_on_featured_image",
+            "type": "true_false",
+            "instructions": "You can add author avatar and profile link over the featured image of a single blog post",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Show Author on Featured Image",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-general"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1523303115
+}

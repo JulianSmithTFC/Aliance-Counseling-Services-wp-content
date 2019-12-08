@@ -1,0 +1,33 @@
+.tooltip-trigger {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+.tooltip-box {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  .transform(translateX(-50%));
+  border-radius: 4px;
+  background-color: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 3px 10px;
+  .font-alternative();
+  font-size: (@alternativeBaseFontSize * 0.8);
+  .tooltip-box-header {
+    white-space: nowrap;
+  }
+}
+.big-meta-box {
+  .tooltip-box {
+    top: -20px;
+    left: 100%;
+    .font-alternative();
+    background-color: rgba(0,0,0,0.8);
+    font-size: (@alternativeBaseFontSize * 0.8);
+    padding: 3px 10px;
+    text-transform: none;
+    z-index: 9;
+    .transform(none);
+  }
+}

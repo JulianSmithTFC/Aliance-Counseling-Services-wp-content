@@ -1,0 +1,112 @@
+body {
+  background-color: #fff;
+  background-repeat: repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.shade-w {
+  box-shadow: 0px 0px 100px rgba(0,0,0,0.2);
+}
+.page-content, .blog-content-text {
+  table {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    td, th {
+      padding: 10px 15px;
+      border: 1px solid rgba(0,0,0,0.1);
+    }
+    th {
+      border-color: rgba(0,0,0,0.5);
+    }
+  }
+}
+article.post, article.page, .blog-content-text {
+  img, figure {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.page-content, .single-content, .blog-content-text {
+  ul, ol {
+    padding-left: 40px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+}
+.page-content-field-w {
+  padding: 50px;
+  background-color: #fff;
+  & + .archive-posts-w {
+    padding-top: 0px;
+  }
+}
+.archive-posts-w + .page-content-field-w {
+  padding-top: 0px;
+}
+.all-wrapper {
+  padding-bottom: 60px;
+}
+
+article.post, article.page {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.page-content, .single-content {
+  ul, ol {
+    padding-left: 40px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+  .page-title:first-child {
+    margin-top: 0px;
+  }
+}
+
+.single-content-w {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  vertical-align: top;
+  .single-content-i {
+    display: table-cell;
+    width: 70%;
+  }
+  .single-sidebar {
+    width: 30%;
+    display: table-cell;
+    vertical-align: top;
+    background-color: @sidebarBg;
+    border-radius: @globalBorderRadius;
+    padding: 40px 30px;
+  }
+}
+
+
+.post-password-form {
+  padding: 30px;
+  background-color: #eee;
+  font-size: 16px;
+  input[type="password"]{
+    border: 1px solid #777;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  input[type="submit"]{
+    padding: 10px 25px;
+    border: none;
+    background-color: #343a8a;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+}
+
+.vc_element.vc_os_text_and_features .vc_controls-out-tl {
+  top: 30px!important;
+}

@@ -1,0 +1,121 @@
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+  *,
+  *:before,
+  *:after {
+      background: transparent !important;
+      color: #000 !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+      text-decoration: underline;
+  }
+
+  a[href]:after {
+      content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+      content: " (" attr(title) ")";
+  }
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+      content: "";
+  }
+
+  pre,
+  blockquote {
+      border: 1px solid #999;
+      page-break-inside: avoid;
+  }
+
+  thead {
+      display: table-header-group;
+  }
+
+  tr,
+  img {
+      page-break-inside: avoid;
+  }
+
+  img {
+      max-width: 100% !important;
+  }
+
+  p,
+  h2,
+  h3 {
+      orphans: 3;
+      widows: 3;
+  }
+
+  h2,
+  h3 {
+      page-break-after: avoid;
+  }
+
+  .print-w {
+    display: block;
+  }
+  .print-logo-w {
+    text-align: center;
+    padding-bottom: 40px;
+    display: none;
+  }
+  .quick-description-quote {
+    &:before, &:after {
+      display: none;
+    }
+  }
+  .os-parallax {
+    display: none;
+  }
+  .os-container {
+    width: auto;
+    margin: 0px;
+  }
+  .footer-copy-and-menu-w {
+    float: none;
+    width: 100%!important;
+    text-align: center;
+  }
+  .single-panel-details-i {
+    .clearfix();
+  }
+  .single-title {
+    padding-top: 0px;
+    margin-top: 0px;
+    h1 {
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+  }
+  .single-panel-details{
+    display: none!important;
+  }
+  .mobile-header-w .mobile-header .mobile-menu-toggler {
+    display: none!important;
+  }
+  .mobile-header-w .mobile-header .mobile-menu-search-toggler {
+    display: none!important;
+  }
+  a[href]:after {
+    content: none !important;
+  }
+  .single-panel .single-panel-main .single-title h1 {
+    font-size: 40px;
+  }
+  .single-panel .single-panel-main .single-title h3 {
+    font-size: 18px;
+  }
+  .single-panel .single-panel-main .quick-description-quote {
+    font-size: 22px;
+  }
+}

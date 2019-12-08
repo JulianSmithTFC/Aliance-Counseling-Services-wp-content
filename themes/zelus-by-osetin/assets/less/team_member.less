@@ -1,0 +1,144 @@
+
+.tms-main-info {
+  display: flex;
+  align-items: stretch;
+  background-color: @memberProfileIntroBg;
+  position: relative;
+
+  .curve-top-img {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .tms-image {
+    flex: 0 0 50%;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    &:before {
+      content: "";
+      background-color: @memberProfileIntroBg;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      bottom: 0px;
+      width: 100%;
+      display: none;
+    }
+  }
+  .tms-side {
+
+  }
+  .tms-info {
+    flex: 0 0 50%;
+    padding: 7% 10% 9%;
+    background-image: url('@{imagesPath}/flower.png');
+    background-position: 92% 14%;
+    background-size: 110px auto;
+    background-repeat: no-repeat;
+    h4 {
+      color: @highlightTextColor;
+      .font-alternative();
+      & + h1 {
+        margin-top: 0px;
+      }
+    }
+    h1 {
+      position: relative;
+      .styled-header();
+    }
+  }
+
+  .tms-quote {
+    margin-top: 4rem;
+    .font-italic-headers();
+    font-size: @italicBaseFontSize * 1.7;
+    position: relative;
+    z-index: 2;
+    line-height: 1.2;
+    &:before {
+      content: "\e90e";
+      .osfont();
+      font-size: 100px;
+      color: rgba(204, 227, 232, 0.4);
+      position: absolute;
+      top: -30px;
+      left: -30px;
+      z-index: -1;
+    }
+  }
+}
+.tms-content-w {
+  font-size: @baseFontSize * 1.1;
+  padding: 30px 8% 50px;
+  h2 {
+    .styled-header();
+  }
+  h4 {
+    color: @headingsHighlighColor;
+    margin-top: 2rem;
+  }
+}
+
+.tms-content-i {
+  display: flex;
+  .tms-content {
+    flex: 1;
+  }
+  .tms-side {
+    flex: 0 0 35%;
+    padding-left: 10%;
+  }
+  .tms-social-w {
+    background-color: @ctaThreeBg;
+    padding: 20px 40px;
+    text-align: center;
+    position: relative;
+    &:before {
+      content: "";
+      background-color: @ctaThreeBgFade;
+      width: 50%;
+      height: 60%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+    }
+    &:after {
+      content: "";
+      background-color: darken(@ctaThreeBgFade, 3%);
+      width: 30%;
+      height: 30%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 1;
+    }
+    h3 , h4{
+      color: #2B87B9;
+      .styled-header-centered();
+      position: relative;
+      z-index: 2;
+    }
+    .social-icons {
+      list-style: none;
+      padding: 0px;
+      margin: 20px 0px;
+      font-size: 40px;
+      position: relative;
+      z-index: 2;
+      li {
+        display: inline-block;
+        margin: 0px 5px;
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

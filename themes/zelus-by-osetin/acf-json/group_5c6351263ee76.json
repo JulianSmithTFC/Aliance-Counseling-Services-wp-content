@@ -1,0 +1,53 @@
+{
+    "key": "group_5c6351263ee76",
+    "title": "Services",
+    "fields": [
+        {
+            "key": "field_5c63513c2bdc6",
+            "label": "Show selected services in the sidebar",
+            "name": "show_selected_services_in_the_sidebar",
+            "type": "post_object",
+            "instructions": "By default a list of all services will be shown in the side menu, you can change it by picking specific services you want to show instead.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "osetin_service"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 1,
+            "return_format": "id",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "osetin_service"
+            }
+        ],
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-services.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1550012878
+}

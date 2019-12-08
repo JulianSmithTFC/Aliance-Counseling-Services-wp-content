@@ -1,0 +1,51 @@
+div.wpcf7 {
+  h2 {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    font-size: 20px;
+    color: rgba(0,0,0,0.3);
+  }
+  form {
+    label {
+      font-size: @baseFontSize * 0.9;
+      font-weight: @textFontWeightBold;
+      color: #111;
+      margin-bottom: 0.3rem;
+      display: block;
+    }
+    .wpcf7-form-control-wrap {
+      display: block;
+      margin-bottom: 1rem;
+    }
+    input[type="text"], 
+    input[type="email"], 
+    input[type="password"], 
+    input[type="tel"], 
+    textarea {
+      padding: 7px 10px;
+      border: 2px solid #DFE2EA;
+      background-color: #F6F8F9;
+      border-radius: 0px;
+      display: block;
+      width: 100%;
+      margin-top: 3px;
+    }
+  }
+  .wpcf7-submit {
+    .os-btn();
+    background-color: @buttonBgCyan;
+    border-color: @buttonBgCyan;
+    color: @buttonColorCyan;
+    &:hover {
+      color: lighten(@buttonColorCyan, 5%);
+      background-color: lighten(@buttonBgCyan, 5%);
+    }
+  }
+}
+
+// Override content-box in Normalize (* isn't specific enough)
+input[type="search"] {
+  .box-sizing(border-box);
+}

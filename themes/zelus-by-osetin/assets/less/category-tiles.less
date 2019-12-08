@@ -1,0 +1,125 @@
+.page-content-text {
+  margin-bottom: 3rem;
+}
+.category-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &.columns-two {
+    .category-tile {
+      width: 49%;
+      height: 400px;
+      .category-title {
+        font-size: @h2FontSize;
+      }
+    }
+  }
+  &.columns-three {
+    .category-tile {
+      width: 32%;
+      height: 350px;
+    }
+  }
+  &.columns-four {
+    .category-tile {
+      width: 23%;
+      height: 300px;
+    }
+  }
+  &.columns-five {
+    .category-tile {
+      width: 18%;
+      height: 300px;
+    }
+  }
+  .category-tile {
+    position: relative;
+    margin-bottom: 2%;
+    overflow: hidden;
+    display: inline-block;
+    .transition(all 0.3s ease);
+
+    &:nth-child(3n + 3){
+      margin-right: 0px;
+    }
+    &:nth-child(3n + 4){
+      clear: left;
+    }
+    &:hover {
+      text-decoration: none;
+      .transform(scale(1.05));
+      .category-title {
+        .transform(translateY(-25px));
+        text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+      }
+      .category-fader {
+        opacity: 0;
+      }
+      .category-recipes-count {
+        opacity: 0;
+        .transform(translateY(-15px));
+      }
+    }
+    &:focus {
+      text-decoration: none;
+    }
+  }
+  .category-content {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    padding: 30px;
+    display: block;
+  }
+  .category-recipes-count {
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    font-size: (@baseFontSize * 0.8);
+    padding: 2px 7px;
+    z-index: 3;
+    .transition(all 0.5s ease);
+    border: 2px solid #fff;
+    border-radius: 4px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    font-weight: @textFontWeightBold;
+  }
+  .category-fader {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0,0,0,0.2);
+    #osetin_gradient > .vertical-three-colors(@start-color: rgba(0,0,0,0); @mid-color: rgba(0,0,0,0.2); @color-stop: 60%; @end-color: rgba(0,0,0,0.8));
+    .transition(all 0.7s ease);
+  }
+  .category-title {
+    display: block;
+    .transition(all 0.4s ease);
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: @h3FontSize;
+    font-weight: @textFontWeightBold;
+  }
+  &.case-tiles {
+    .category-recipes-count {
+      background-color: @bgHighlightColor;
+      color: #fff;
+      border: none;
+      text-shadow: none;
+      font-size: @baseFontSize * 0.9;
+    }
+    .category-title {
+      line-height: 1.1;
+      font-size: @h4FontSize;
+      margin-bottom: 1rem;
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+    "key": "group_5888f42462963",
+    "title": "Team Member",
+    "fields": [
+        {
+            "key": "field_5898e9a219929",
+            "label": "Sub Title",
+            "name": "sub_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5888f43d10831",
+            "label": "Social Links",
+            "name": "team_member_social_links",
+            "type": "repeater",
+            "instructions": "Select social networks you want to link to",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Row",
+            "collapsed": "",
+            "sub_fields": [
+                {
+                    "key": "field_5888f43d10832",
+                    "label": "Social Network",
+                    "name": "social_network",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "choices": {
+                        "instagram": "Instagram",
+                        "tumblr": "Tumblr",
+                        "google-plus": "Google Plus",
+                        "linkedin": "LinkedIn",
+                        "flickr": "Flickr",
+                        "twitter": "Twitter",
+                        "facebook": "Facebook",
+                        "pinterest": "Pinterest",
+                        "youtube": "YouTube",
+                        "vine": "Vine",
+                        "blogger": "Blogger",
+                        "vimeo": "Vimeo",
+                        "vkontakte": "Vkontakte",
+                        "odnoklassniki": "Odnoklassniki"
+                    },
+                    "default_value": [],
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "return_format": "value"
+                },
+                {
+                    "key": "field_5888f43d10833",
+                    "label": "Social Page URL",
+                    "name": "social_page_url",
+                    "type": "url",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5898e92c18571",
+            "label": "Favorite Quote",
+            "name": "quote",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "osetin_team_member"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1521602865
+}

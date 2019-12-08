@@ -1,0 +1,1180 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Psychology Theme Helper\n"
+"POT-Creation-Date: 2018-03-24 23:34-0700\n"
+"PO-Revision-Date: 2018-03-24 23:34-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: psych-helper.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/custom_post_types.php:15
+msgid "pricing_plan"
+msgstr ""
+
+#: inc/custom_post_types.php:19 inc/shortcodes/pricing_plans.php:77
+msgid "Pricing Plans"
+msgstr ""
+
+#: inc/custom_post_types.php:20
+msgid "Pricing Plan"
+msgstr ""
+
+#: inc/custom_post_types.php:21
+msgid "Add Pricing Plan"
+msgstr ""
+
+#: inc/custom_post_types.php:22
+msgid "Add New Pricing Plan"
+msgstr ""
+
+#: inc/custom_post_types.php:23
+msgid "Edit Pricing Plan"
+msgstr ""
+
+#: inc/custom_post_types.php:24
+msgid "New Pricing Plan"
+msgstr ""
+
+#: inc/custom_post_types.php:25
+msgid "View Pricing Plan"
+msgstr ""
+
+#: inc/custom_post_types.php:26
+msgid "Search Pricing Plans"
+msgstr ""
+
+#: inc/custom_post_types.php:27
+msgid "No Pricing Plans Found"
+msgstr ""
+
+#: inc/custom_post_types.php:43
+msgid "slide"
+msgstr ""
+
+#: inc/custom_post_types.php:47
+msgid "Slides"
+msgstr ""
+
+#: inc/custom_post_types.php:48
+msgid "Slide"
+msgstr ""
+
+#: inc/custom_post_types.php:49
+msgid "Add Slide"
+msgstr ""
+
+#: inc/custom_post_types.php:50
+msgid "Add New Slide"
+msgstr ""
+
+#: inc/custom_post_types.php:51 inc/shortcodes/slider.php:54
+msgid "Edit Slide"
+msgstr ""
+
+#: inc/custom_post_types.php:52
+msgid "New Slide"
+msgstr ""
+
+#: inc/custom_post_types.php:53
+msgid "View Slide"
+msgstr ""
+
+#: inc/custom_post_types.php:54
+msgid "Search Slides"
+msgstr ""
+
+#: inc/custom_post_types.php:55
+msgid "No Slides Found"
+msgstr ""
+
+#: inc/custom_post_types.php:70
+msgid "team_member"
+msgstr ""
+
+#: inc/custom_post_types.php:74 inc/shortcodes/team_members.php:93
+msgid "Team Members"
+msgstr ""
+
+#: inc/custom_post_types.php:75
+msgid "Team Member"
+msgstr ""
+
+#: inc/custom_post_types.php:76
+msgid "Add Team Member"
+msgstr ""
+
+#: inc/custom_post_types.php:77
+msgid "Add New Team Member"
+msgstr ""
+
+#: inc/custom_post_types.php:78
+msgid "Edit Team Member"
+msgstr ""
+
+#: inc/custom_post_types.php:79
+msgid "New Team Member"
+msgstr ""
+
+#: inc/custom_post_types.php:80
+msgid "View Team Member"
+msgstr ""
+
+#: inc/custom_post_types.php:81
+msgid "Search Team Members"
+msgstr ""
+
+#: inc/custom_post_types.php:82
+msgid "No Team Members Found"
+msgstr ""
+
+#: inc/custom_post_types.php:98
+msgid "service"
+msgstr ""
+
+#: inc/custom_post_types.php:102 inc/shortcodes/services.php:88
+msgid "Services"
+msgstr ""
+
+#: inc/custom_post_types.php:103
+msgid "Service"
+msgstr ""
+
+#: inc/custom_post_types.php:104
+msgid "Add Service"
+msgstr ""
+
+#: inc/custom_post_types.php:105
+msgid "Add New Service"
+msgstr ""
+
+#: inc/custom_post_types.php:106
+msgid "Edit Service"
+msgstr ""
+
+#: inc/custom_post_types.php:107
+msgid "New Service"
+msgstr ""
+
+#: inc/custom_post_types.php:108
+msgid "View Service"
+msgstr ""
+
+#: inc/custom_post_types.php:109
+msgid "Search Services"
+msgstr ""
+
+#: inc/custom_post_types.php:110
+msgid "No Services Found"
+msgstr ""
+
+#: inc/custom_post_types.php:128
+msgid "testimonial"
+msgstr ""
+
+#: inc/custom_post_types.php:132 inc/shortcodes/testimonials.php:50
+msgid "Testimonials"
+msgstr ""
+
+#: inc/custom_post_types.php:133
+msgid "Testimonial"
+msgstr ""
+
+#: inc/custom_post_types.php:134
+msgid "Add Testimonial"
+msgstr ""
+
+#: inc/custom_post_types.php:135
+msgid "Add New Testimonial"
+msgstr ""
+
+#: inc/custom_post_types.php:136
+msgid "Edit Testimonial"
+msgstr ""
+
+#: inc/custom_post_types.php:137
+msgid "New Testimonial"
+msgstr ""
+
+#: inc/custom_post_types.php:138
+msgid "View Testimonial"
+msgstr ""
+
+#: inc/custom_post_types.php:139
+msgid "Search Testimonials"
+msgstr ""
+
+#: inc/custom_post_types.php:140
+msgid "No Testimonials Found"
+msgstr ""
+
+#: inc/shortcodes/box_with_attachment.php:10
+msgid "Download"
+msgstr ""
+
+#: inc/shortcodes/box_with_attachment.php:20
+msgid "Box with Attachment"
+msgstr ""
+
+#: inc/shortcodes/box_with_attachment.php:24
+#: inc/shortcodes/box_with_image_and_features.php:24
+#: inc/shortcodes/cta_block.php:73 inc/shortcodes/faq.php:29
+#: inc/shortcodes/form_cta.php:47 inc/shortcodes/history_entry.php:31
+#: inc/shortcodes/icon.php:32 inc/shortcodes/iconed_counter.php:49
+#: inc/shortcodes/iconed_feature.php:68 inc/shortcodes/iconed_features.php:24
+#: inc/shortcodes/intro_banner.php:45 inc/shortcodes/logos_list.php:34
+#: inc/shortcodes/pricing_plans.php:81 inc/shortcodes/recent_posts.php:60
+#: inc/shortcodes/section_desc.php:68 inc/shortcodes/section_wrapper.php:34
+#: inc/shortcodes/services.php:92 inc/shortcodes/slider.php:99
+#: inc/shortcodes/small_newsletter_form_cta.php:43 inc/shortcodes/step.php:49
+#: inc/shortcodes/team_members.php:97 inc/shortcodes/testimonials.php:54
+#: inc/shortcodes/text_and_features.php:68 inc/shortcodes/text_and_image.php:78
+#: inc/shortcodes/text_and_quote.php:71
+msgid "Psychology"
+msgstr ""
+
+#: inc/shortcodes/box_with_attachment.php:30
+msgid "URL of the file"
+msgstr ""
+
+#: inc/shortcodes/box_with_attachment.php:33
+msgid "Enter full file url"
+msgstr ""
+
+#: inc/shortcodes/box_with_attachment.php:39
+#: inc/shortcodes/box_with_image_and_features.php:39
+#: inc/shortcodes/intro_banner.php:77 inc/shortcodes/text_and_image.php:125
+#: inc/shortcodes/text_and_quote.php:77
+msgid "Text Content"
+msgstr ""
+
+#: inc/shortcodes/box_with_attachment.php:41
+#: inc/shortcodes/box_with_image_and_features.php:41 inc/shortcodes/faq.php:47
+#: inc/shortcodes/iconed_feature.php:110 inc/shortcodes/intro_banner.php:79
+#: inc/shortcodes/step.php:57 inc/shortcodes/text_and_image.php:127
+#: inc/shortcodes/text_and_quote.php:79
+msgid "<p>I am test text block. Click edit button to change this text.</p>"
+msgstr ""
+
+#: inc/shortcodes/box_with_attachment.php:42
+#: inc/shortcodes/box_with_image_and_features.php:42
+#: inc/shortcodes/intro_banner.php:80 inc/shortcodes/text_and_image.php:128
+#: inc/shortcodes/text_and_quote.php:80
+msgid "Enter your content."
+msgstr ""
+
+#: inc/shortcodes/box_with_image_and_features.php:20
+msgid "Box with image and features"
+msgstr ""
+
+#: inc/shortcodes/box_with_image_and_features.php:29
+msgid "Main Image"
+msgstr ""
+
+#: inc/shortcodes/box_with_image_and_features.php:32 inc/shortcodes/step.php:77
+#: inc/shortcodes/text_and_features.php:87
+#: inc/shortcodes/text_and_features.php:96 inc/shortcodes/text_and_image.php:86
+msgid "Choose image"
+msgstr ""
+
+#: inc/shortcodes/box_with_image_and_features.php:33
+#: inc/shortcodes/box_with_image_and_features.php:43
+#: inc/shortcodes/cta_block.php:83 inc/shortcodes/cta_block.php:92
+#: inc/shortcodes/faq.php:39 inc/shortcodes/faq.php:48
+#: inc/shortcodes/section_desc.php:78 inc/shortcodes/section_desc.php:84
+#: inc/shortcodes/section_desc.php:88 inc/shortcodes/section_desc.php:98
+#: inc/shortcodes/step.php:59 inc/shortcodes/step.php:69
+#: inc/shortcodes/step.php:78 inc/shortcodes/step.php:89
+#: inc/shortcodes/text_and_features.php:88
+#: inc/shortcodes/text_and_features.php:97 inc/shortcodes/text_and_image.php:87
+#: inc/shortcodes/text_and_image.php:119 inc/shortcodes/text_and_image.php:129
+msgid "Content"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:69
+msgid "Call to Action"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:79
+msgid "Call to action text content"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:81
+msgid ""
+"<h3>Special Offer Available Here</h3><p>Pros hope out it of the and is that "
+"degree has him, sat nice those for of agreeable. Subject little a involved. "
+"Sports. Name area on then grant view of the with congress, ideas instead of "
+"clues of the a there in his music. </p>"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:82
+msgid "Type in call to action text content."
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:88
+msgid "Offer Image (optional)"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:91
+msgid "Choose image for the offer (e.g. book cover)"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:98
+msgid "Button Label"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:101 inc/shortcodes/iconed_feature.php:137
+msgid "Enter link label. Leave blank to not use link"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:102 inc/shortcodes/cta_block.php:112
+#: inc/shortcodes/cta_block.php:121 inc/shortcodes/cta_block.php:130
+msgid "Button Settings"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:108
+msgid "Button URL"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:111 inc/shortcodes/iconed_feature.php:146
+msgid "Enter url where the link would point to"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:117
+msgid "Button Background Color (optional)"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:120
+msgid "Choose color for the button background"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:126
+msgid "Button Text Color (optional)"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:129
+msgid "Choose color for the button color"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:136 inc/shortcodes/iconed_counter.php:107
+#: inc/shortcodes/recent_posts.php:66 inc/shortcodes/section_desc.php:129
+#: inc/shortcodes/section_wrapper.php:66 inc/shortcodes/step.php:95
+#: inc/shortcodes/team_members.php:121 inc/shortcodes/testimonials.php:60
+#: inc/shortcodes/text_and_features.php:114
+#: inc/shortcodes/text_and_image.php:135 inc/shortcodes/text_and_quote.php:154
+msgid "Color Type"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:138 inc/shortcodes/iconed_counter.php:109
+#: inc/shortcodes/iconed_feature.php:181 inc/shortcodes/recent_posts.php:68
+#: inc/shortcodes/section_desc.php:131 inc/shortcodes/section_wrapper.php:68
+#: inc/shortcodes/step.php:97 inc/shortcodes/team_members.php:123
+#: inc/shortcodes/testimonials.php:62 inc/shortcodes/text_and_features.php:116
+#: inc/shortcodes/text_and_image.php:137 inc/shortcodes/text_and_quote.php:156
+msgid "Dark"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:138 inc/shortcodes/iconed_counter.php:109
+#: inc/shortcodes/iconed_feature.php:181 inc/shortcodes/recent_posts.php:68
+#: inc/shortcodes/section_desc.php:131 inc/shortcodes/section_wrapper.php:68
+#: inc/shortcodes/step.php:97 inc/shortcodes/team_members.php:123
+#: inc/shortcodes/testimonials.php:62 inc/shortcodes/text_and_features.php:116
+#: inc/shortcodes/text_and_image.php:137 inc/shortcodes/text_and_quote.php:156
+msgid "Light"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:139 inc/shortcodes/iconed_counter.php:110
+#: inc/shortcodes/recent_posts.php:69 inc/shortcodes/section_desc.php:132
+#: inc/shortcodes/section_wrapper.php:69 inc/shortcodes/step.php:98
+#: inc/shortcodes/team_members.php:124 inc/shortcodes/testimonials.php:63
+#: inc/shortcodes/text_and_features.php:117
+#: inc/shortcodes/text_and_image.php:138 inc/shortcodes/text_and_quote.php:157
+msgid "Color Scheme Type for the element"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:140 inc/shortcodes/cta_block.php:146
+#: inc/shortcodes/faq.php:54 inc/shortcodes/recent_posts.php:70
+#: inc/shortcodes/recent_posts.php:79 inc/shortcodes/recent_posts.php:85
+#: inc/shortcodes/section_desc.php:124 inc/shortcodes/section_wrapper.php:61
+#: inc/shortcodes/section_wrapper.php:70 inc/shortcodes/step.php:105
+#: inc/shortcodes/team_members.php:130 inc/shortcodes/testimonials.php:69
+#: inc/shortcodes/text_and_features.php:124
+#: inc/shortcodes/text_and_image.php:145
+msgid "Design options"
+msgstr ""
+
+#: inc/shortcodes/cta_block.php:144 inc/shortcodes/faq.php:52
+#: inc/shortcodes/recent_posts.php:83 inc/shortcodes/section_desc.php:122
+#: inc/shortcodes/section_wrapper.php:59 inc/shortcodes/step.php:103
+#: inc/shortcodes/team_members.php:128 inc/shortcodes/testimonials.php:67
+#: inc/shortcodes/text_and_features.php:122
+#: inc/shortcodes/text_and_image.php:143
+msgid "Css"
+msgstr ""
+
+#: inc/shortcodes/faq.php:25
+msgid "FAQ Item"
+msgstr ""
+
+#: inc/shortcodes/faq.php:35
+msgid "Question"
+msgstr ""
+
+#: inc/shortcodes/faq.php:38
+msgid "Question Title"
+msgstr ""
+
+#: inc/shortcodes/faq.php:45
+msgid "Answer"
+msgstr ""
+
+#: inc/shortcodes/form_cta.php:43
+msgid "Form Call To Action"
+msgstr ""
+
+#: inc/shortcodes/form_cta.php:53
+msgid "Form shortcode"
+msgstr ""
+
+#: inc/shortcodes/form_cta.php:56
+msgid "Type in form shortcode and other content you want."
+msgstr ""
+
+#: inc/shortcodes/form_cta.php:62
+msgid "Form Header"
+msgstr ""
+
+#: inc/shortcodes/form_cta.php:65
+msgid "Form header text"
+msgstr ""
+
+#: inc/shortcodes/form_cta.php:71
+msgid "Form Sub Header"
+msgstr ""
+
+#: inc/shortcodes/form_cta.php:74
+msgid "Form sub header text"
+msgstr ""
+
+#: inc/shortcodes/form_cta.php:80
+msgid "Form Description"
+msgstr ""
+
+#: inc/shortcodes/form_cta.php:83
+msgid "Enter description text that goes below header"
+msgstr ""
+
+#: inc/shortcodes/form_cta.php:88 inc/shortcodes/intro_banner.php:59
+msgid "Background Image"
+msgstr ""
+
+#: inc/shortcodes/form_cta.php:91
+msgid "Choose image for the background"
+msgstr ""
+
+#: inc/shortcodes/history_entry.php:27
+msgid "History Entry"
+msgstr ""
+
+#: inc/shortcodes/history_entry.php:37
+msgid "Event Date or Year"
+msgstr ""
+
+#: inc/shortcodes/history_entry.php:40
+msgid "Enter event date (e.g. 2015)"
+msgstr ""
+
+#: inc/shortcodes/history_entry.php:46
+msgid "Event Content"
+msgstr ""
+
+#: inc/shortcodes/history_entry.php:49
+msgid "Type in what happened at that date."
+msgstr ""
+
+#: inc/shortcodes/icon.php:28
+msgid "Icon"
+msgstr ""
+
+#: inc/shortcodes/icon.php:38 inc/shortcodes/iconed_counter.php:81
+#: inc/shortcodes/iconed_feature.php:91
+msgid "Icon Class"
+msgstr ""
+
+#: inc/shortcodes/icon.php:41
+msgid ""
+"Input class for the icon you want to use, see all classes at http://psych."
+"pinsupreme.com/icon-list"
+msgstr ""
+
+#: inc/shortcodes/icon.php:47
+msgid "Icon Font Size"
+msgstr ""
+
+#: inc/shortcodes/icon.php:50
+msgid "Enter font size for the icon (e.g. 40px)"
+msgstr ""
+
+#: inc/shortcodes/icon.php:55
+msgid "Icon Color (Optional)"
+msgstr ""
+
+#: inc/shortcodes/icon.php:58 inc/shortcodes/iconed_counter.php:92
+#: inc/shortcodes/iconed_feature.php:102
+msgid "Choose color for the icon"
+msgstr ""
+
+#: inc/shortcodes/iconed_counter.php:45
+msgid "Counter with Icon"
+msgstr ""
+
+#: inc/shortcodes/iconed_counter.php:55
+msgid "Counter Value"
+msgstr ""
+
+#: inc/shortcodes/iconed_counter.php:58
+msgid "Enter heading text for the counter"
+msgstr ""
+
+#: inc/shortcodes/iconed_counter.php:64
+msgid "Counter Description"
+msgstr ""
+
+#: inc/shortcodes/iconed_counter.php:67
+msgid "Enter description text for the counter"
+msgstr ""
+
+#: inc/shortcodes/iconed_counter.php:72 inc/shortcodes/iconed_feature.php:82
+msgid "Heading Text Color (optional)"
+msgstr ""
+
+#: inc/shortcodes/iconed_counter.php:75 inc/shortcodes/iconed_feature.php:85
+msgid "Choose color for heading text"
+msgstr ""
+
+#: inc/shortcodes/iconed_counter.php:84 inc/shortcodes/iconed_feature.php:94
+msgid ""
+"Enter class of the icon font you want to use. See all available icons by <a "
+"href='http://psych.pinsupreme.com/elements/icon-list/' "
+"target='_blank'>clicking here</a>"
+msgstr ""
+
+#: inc/shortcodes/iconed_counter.php:89 inc/shortcodes/iconed_feature.php:99
+msgid "Icon Color (optional)"
+msgstr ""
+
+#: inc/shortcodes/iconed_counter.php:98
+msgid "Icon Size (optional)"
+msgstr ""
+
+#: inc/shortcodes/iconed_counter.php:101
+msgid "Enter size for icon you want to use (e.g. 50px)."
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:64
+msgid "Feature with Icon or Image"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:74
+msgid "Feature Heading"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:77
+msgid "Enter heading text for the feature"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:108
+msgid "Feature Description"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:111 inc/shortcodes/step.php:58
+msgid "Feature Description."
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:116
+msgid "Image (optional)"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:119
+msgid ""
+"If you want you can use image instead of the icon font. Select the image "
+"here and set it's width below"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:125
+msgid "Image Width/Icon Size (optional)"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:128
+msgid "Enter size for image or icon you want to use from above (e.g. 50px)."
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:134
+msgid "Link Label"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:143
+msgid "Link URL"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:152
+msgid "Link Style Class (optional)"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:155
+msgid ""
+"By default it will use an underlined link style. You can add custom class or "
+"one of the classes of [os_btn] shortcode to customize it."
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:161
+msgid "Layout Type"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:163
+msgid "Text below"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:163
+msgid "Text on the Right"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:164 inc/shortcodes/iconed_feature.php:173
+#: inc/shortcodes/services.php:101 inc/shortcodes/team_members.php:106
+msgid "Select Style for the layout"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:170
+msgid "Text Align"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:172 inc/shortcodes/section_desc.php:106
+msgid "Center"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:172 inc/shortcodes/section_desc.php:106
+msgid "Left"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:179
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/shortcodes/iconed_feature.php:182
+msgid "Select Color Scheme for element"
+msgstr ""
+
+#: inc/shortcodes/iconed_features.php:17
+msgid "Wrapper of Iconed Features"
+msgstr ""
+
+#: inc/shortcodes/intro_banner.php:41
+msgid "Intro Banner"
+msgstr ""
+
+#: inc/shortcodes/intro_banner.php:51
+msgid "Banner Heading"
+msgstr ""
+
+#: inc/shortcodes/intro_banner.php:54 inc/shortcodes/logos_list.php:43
+msgid "Enter heading text for the banner"
+msgstr ""
+
+#: inc/shortcodes/intro_banner.php:62
+msgid "Choose background image"
+msgstr ""
+
+#: inc/shortcodes/intro_banner.php:68 inc/shortcodes/slider.php:124
+msgid "Add Arrows Down and Scroll Icon"
+msgstr ""
+
+#: inc/shortcodes/logos_list.php:30
+msgid "List of Logos"
+msgstr ""
+
+#: inc/shortcodes/logos_list.php:40
+msgid "Heading for List"
+msgstr ""
+
+#: inc/shortcodes/logos_list.php:48
+msgid "Logos to show"
+msgstr ""
+
+#: inc/shortcodes/logos_list.php:51
+msgid "Choose logos images"
+msgstr ""
+
+#: inc/shortcodes/pricing_plans.php:56
+msgid "Plan Features"
+msgstr ""
+
+#: inc/shortcodes/pricing_plans.php:86
+msgid "Color of price value"
+msgstr ""
+
+#: inc/shortcodes/pricing_plans.php:89
+msgid "Choose color for price value"
+msgstr ""
+
+#: inc/shortcodes/recent_posts.php:56
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/shortcodes/recent_posts.php:75
+msgid "Custom Color for Post Tile (optional)"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:64
+msgid "Section Description"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:74
+#: inc/shortcodes/small_newsletter_form_cta.php:67
+msgid "Sub Header"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:77
+msgid "Optional Subheader"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:87
+msgid "Type in the section content."
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:94
+msgid "Icon Class (Optional)"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:97
+msgid "Optional Icon to show above"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:104
+msgid "Alignment"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:106
+msgid "Right"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:107
+msgid "Which side to align content."
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:108 inc/shortcodes/section_desc.php:118
+#: inc/shortcodes/section_wrapper.php:45 inc/shortcodes/section_wrapper.php:55
+#: inc/shortcodes/text_and_features.php:79
+#: inc/shortcodes/text_and_features.php:108
+#: inc/shortcodes/text_and_image.php:98 inc/shortcodes/text_and_image.php:109
+msgid "Layout"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:114
+msgid "Use less top and bottom padding"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:133 inc/shortcodes/section_desc.php:142
+#: inc/shortcodes/section_desc.php:151 inc/shortcodes/section_desc.php:160
+#: inc/shortcodes/section_desc.php:169 inc/shortcodes/step.php:99
+#: inc/shortcodes/text_and_features.php:118
+#: inc/shortcodes/text_and_image.php:139 inc/shortcodes/text_and_image.php:154
+#: inc/shortcodes/text_and_image.php:163 inc/shortcodes/text_and_image.php:172
+#: inc/shortcodes/text_and_image.php:181
+msgid "Custom Colors"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:138 inc/shortcodes/text_and_image.php:150
+msgid "Custom Color for Highlighted Text (optional)"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:147 inc/shortcodes/text_and_image.php:159
+msgid "Custom Color for Highlighted Element (optional)"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:156 inc/shortcodes/text_and_image.php:168
+msgid "Custom Color for Heading Text (optional)"
+msgstr ""
+
+#: inc/shortcodes/section_desc.php:165 inc/shortcodes/text_and_image.php:177
+msgid "Custom Color for Body Text (optional)"
+msgstr ""
+
+#: inc/shortcodes/section_wrapper.php:28
+msgid "Section Wrapper"
+msgstr ""
+
+#: inc/shortcodes/section_wrapper.php:41
+#: inc/shortcodes/text_and_features.php:74
+msgid "Layout Style"
+msgstr ""
+
+#: inc/shortcodes/section_wrapper.php:43
+msgid "Simple"
+msgstr ""
+
+#: inc/shortcodes/section_wrapper.php:43
+msgid "Slash"
+msgstr ""
+
+#: inc/shortcodes/section_wrapper.php:44
+msgid "Select Layout Style for the wrapper"
+msgstr ""
+
+#: inc/shortcodes/section_wrapper.php:51
+msgid "Remove Vertical Padding"
+msgstr ""
+
+#: inc/shortcodes/services.php:64 inc/shortcodes/team_members.php:69
+msgid "Read More"
+msgstr ""
+
+#: inc/shortcodes/services.php:98 inc/shortcodes/team_members.php:103
+msgid "Style"
+msgstr ""
+
+#: inc/shortcodes/services.php:100 inc/shortcodes/slider.php:107
+#: inc/shortcodes/team_members.php:105
+msgid "Version 1"
+msgstr ""
+
+#: inc/shortcodes/services.php:100 inc/shortcodes/slider.php:107
+#: inc/shortcodes/team_members.php:105
+msgid "Version 2"
+msgstr ""
+
+#: inc/shortcodes/services.php:107
+msgid "Service ID(s) to show (optional)"
+msgstr ""
+
+#: inc/shortcodes/services.php:110
+msgid ""
+"Enter comma separated list of post ID(s) of Services you want to show (e.g. "
+"3,5,7). Leave blank to show all Services"
+msgstr ""
+
+#: inc/shortcodes/slider.php:95
+msgid "Slider"
+msgstr ""
+
+#: inc/shortcodes/slider.php:105
+msgid "Slider Style"
+msgstr ""
+
+#: inc/shortcodes/slider.php:108 inc/shortcodes/text_and_features.php:106
+#: inc/shortcodes/text_and_image.php:96
+msgid "Select Width"
+msgstr ""
+
+#: inc/shortcodes/slider.php:109
+msgid "Select slider style."
+msgstr ""
+
+#: inc/shortcodes/slider.php:115
+msgid "Slide ID(s) to show"
+msgstr ""
+
+#: inc/shortcodes/slider.php:118
+msgid ""
+"Enter comma separated list of slide ID(s) you want to show (e.g. 3,5,7). "
+"Leave blank to show all slides"
+msgstr ""
+
+#: inc/shortcodes/slider.php:133
+msgid "Show slide descriptions under slides"
+msgstr ""
+
+#: inc/shortcodes/slider.php:142
+msgid "Add Parallax Effect on Scroll"
+msgstr ""
+
+#: inc/shortcodes/slider.php:151
+msgid "Autoslide delay"
+msgstr ""
+
+#: inc/shortcodes/slider.php:154
+msgid ""
+"To make the slider autoslide enter milliseconds value here, so for 3 seconds "
+"enter 3000. If you don't want it to autoslide just leave the field blank"
+msgstr ""
+
+#: inc/shortcodes/small_newsletter_form_cta.php:39
+msgid "Newsletter Call to Action"
+msgstr ""
+
+#: inc/shortcodes/small_newsletter_form_cta.php:49
+msgid "Form shortcode or html"
+msgstr ""
+
+#: inc/shortcodes/small_newsletter_form_cta.php:52
+msgid "Type in form shortcode or html."
+msgstr ""
+
+#: inc/shortcodes/small_newsletter_form_cta.php:58
+msgid "Header"
+msgstr ""
+
+#: inc/shortcodes/small_newsletter_form_cta.php:61
+msgid "Enter block header text"
+msgstr ""
+
+#: inc/shortcodes/small_newsletter_form_cta.php:70
+msgid "Enter sub header text"
+msgstr ""
+
+#: inc/shortcodes/small_newsletter_form_cta.php:75
+msgid "Background Color (optional)"
+msgstr ""
+
+#: inc/shortcodes/small_newsletter_form_cta.php:78
+msgid "Choose color for the background"
+msgstr ""
+
+#: inc/shortcodes/small_newsletter_form_cta.php:83
+#: inc/shortcodes/text_and_quote.php:119
+msgid "Background Image (optional)"
+msgstr ""
+
+#: inc/shortcodes/small_newsletter_form_cta.php:86
+msgid "Choose image for cta the background"
+msgstr ""
+
+#: inc/shortcodes/step.php:45
+msgid "Step"
+msgstr ""
+
+#: inc/shortcodes/step.php:55
+msgid "Step Text Content"
+msgstr ""
+
+#: inc/shortcodes/step.php:65
+msgid "Step Number"
+msgstr ""
+
+#: inc/shortcodes/step.php:68
+msgid "Leave blank to hide step number"
+msgstr ""
+
+#: inc/shortcodes/step.php:74 inc/shortcodes/text_and_features.php:84
+#: inc/shortcodes/text_and_image.php:83
+msgid "Image for the side"
+msgstr ""
+
+#: inc/shortcodes/step.php:84
+msgid "Text Side"
+msgstr ""
+
+#: inc/shortcodes/step.php:86 inc/shortcodes/text_and_image.php:106
+msgid "On the left"
+msgstr ""
+
+#: inc/shortcodes/step.php:86 inc/shortcodes/text_and_image.php:106
+msgid "On the right"
+msgstr ""
+
+#: inc/shortcodes/step.php:87 inc/shortcodes/text_and_image.php:107
+msgid "Select Side"
+msgstr ""
+
+#: inc/shortcodes/step.php:88
+msgid "Select text side."
+msgstr ""
+
+#: inc/shortcodes/team_members.php:105
+msgid "Version 3"
+msgstr ""
+
+#: inc/shortcodes/team_members.php:112
+msgid "Team Member ID(s) to show (optional)"
+msgstr ""
+
+#: inc/shortcodes/team_members.php:115
+msgid ""
+"Enter comma separated list of post ID(s) of team members you want to show (e."
+"g. 3,5,7). Leave blank to show all team members"
+msgstr ""
+
+#: inc/shortcodes/text_and_features.php:60
+msgid "Text and Features Block"
+msgstr ""
+
+#: inc/shortcodes/text_and_features.php:76
+msgid "Image as background"
+msgstr ""
+
+#: inc/shortcodes/text_and_features.php:76
+msgid "Images as photos"
+msgstr ""
+
+#: inc/shortcodes/text_and_features.php:77
+msgid "Select Layout"
+msgstr ""
+
+#: inc/shortcodes/text_and_features.php:78
+msgid "Select Layout Style."
+msgstr ""
+
+#: inc/shortcodes/text_and_features.php:93
+msgid "Second Image for the side"
+msgstr ""
+
+#: inc/shortcodes/text_and_features.php:103
+msgid "Text Occupies"
+msgstr ""
+
+#: inc/shortcodes/text_and_features.php:105
+#: inc/shortcodes/text_and_image.php:95
+msgid "Half"
+msgstr ""
+
+#: inc/shortcodes/text_and_features.php:105
+#: inc/shortcodes/text_and_image.php:95
+msgid "More than half"
+msgstr ""
+
+#: inc/shortcodes/text_and_features.php:105
+#: inc/shortcodes/text_and_image.php:95
+msgid "Less than half"
+msgstr ""
+
+#: inc/shortcodes/text_and_features.php:107
+msgid "Select Text Width."
+msgstr ""
+
+#: inc/shortcodes/text_and_image.php:74
+msgid "Text and Image Block"
+msgstr ""
+
+#: inc/shortcodes/text_and_image.php:93
+msgid "Image Occupies"
+msgstr ""
+
+#: inc/shortcodes/text_and_image.php:97
+msgid "Select Image width."
+msgstr ""
+
+#: inc/shortcodes/text_and_image.php:104
+msgid "Image Side"
+msgstr ""
+
+#: inc/shortcodes/text_and_image.php:108
+msgid "Select image side."
+msgstr ""
+
+#: inc/shortcodes/text_and_image.php:115 inc/shortcodes/text_and_quote.php:86
+msgid "Sub Title"
+msgstr ""
+
+#: inc/shortcodes/text_and_image.php:118 inc/shortcodes/text_and_quote.php:89
+msgid "Enter sub title"
+msgstr ""
+
+#: inc/shortcodes/text_and_quote.php:67
+msgid "Text and Quote Block"
+msgstr ""
+
+#: inc/shortcodes/text_and_quote.php:95
+msgid "Quote"
+msgstr ""
+
+#: inc/shortcodes/text_and_quote.php:98
+msgid "Enter text for quote"
+msgstr ""
+
+#: inc/shortcodes/text_and_quote.php:103
+msgid "Quote Text Color (optional)"
+msgstr ""
+
+#: inc/shortcodes/text_and_quote.php:111
+msgid "Quote Background Color (optional)"
+msgstr ""
+
+#: inc/shortcodes/text_and_quote.php:127
+msgid "Author Avatar"
+msgstr ""
+
+#: inc/shortcodes/text_and_quote.php:136
+msgid "Quote Author"
+msgstr ""
+
+#: inc/shortcodes/text_and_quote.php:145
+msgid "Quote Author Extra Text"
+msgstr ""
+
+#: inc/widgets.php:20
+msgid "Osetin Newsletter CTA"
+msgstr ""
+
+#: inc/widgets.php:21
+msgid "Newsletter CTA Widget"
+msgstr ""
+
+#: inc/widgets.php:69 inc/widgets.php:165 inc/widgets.php:246
+#: inc/widgets.php:336 inc/widgets.php:409
+msgid "New title"
+msgstr ""
+
+#: inc/widgets.php:72 inc/widgets.php:168 inc/widgets.php:249
+#: inc/widgets.php:339 inc/widgets.php:412
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets.php:111
+msgid "Osetin Call To Action"
+msgstr ""
+
+#: inc/widgets.php:112
+msgid "Call to Action Widget"
+msgstr ""
+
+#: inc/widgets.php:209
+msgid "Osetin Categories"
+msgstr ""
+
+#: inc/widgets.php:210
+msgid "Catogories Table Widget"
+msgstr ""
+
+#: inc/widgets.php:289
+msgid "Osetin Testimonial"
+msgstr ""
+
+#: inc/widgets.php:290
+msgid "Testimonial Widget"
+msgstr ""
+
+#: inc/widgets.php:379
+msgid "Osetin Social Links"
+msgstr ""
+
+#: inc/widgets.php:380
+msgid "Social Links Widget"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Psychology Theme Helper"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds Special post types support to use within a theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeBully"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themebully.com"
+msgstr ""

@@ -1,0 +1,77 @@
+//
+// Typography
+// --------------------------------------------------
+
+
+// Reset the box-sizing
+
+*,
+*:before,
+*:after {
+  .box-sizing(border-box);
+}
+
+
+// Body reset
+
+html {
+  font-size: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+  font-family: @textFontFamily;
+  font-size: @baseFontSize;
+  font-weight: @textFontWeightNormal;
+  line-height: @lineHeightBase;
+  color: @textColor;
+  letter-spacing: @textLetterSpacing;
+}
+
+a {
+  color: @linkColor;
+}
+
+strong {
+  font-weight: @textFontWeightBold;
+}
+
+// Reset fonts for relevant elements
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: @headingsFontFamily;
+  font-weight: @headingsFontWeightBold;
+  line-height: @headingsLineHeight;
+  color: @headingsColor;
+}
+h1,
+h2,
+h3 {
+  margin-top: @lineHeightComputed;
+  margin-bottom: (@lineHeightComputed / 2);
+}
+h4,
+h5,
+h6 {
+  margin-top: (@lineHeightComputed / 2);
+  margin-bottom: (@lineHeightComputed / 2);
+}
+
+h1, .h1 { font-size: @h1FontSize; letter-spacing: -.0em; }
+h2, .h2 { font-size: @h2FontSize; letter-spacing: -.0em; }
+h3, .h3 { font-size: @h3FontSize; letter-spacing: -.0em; }
+h4, .h4 { font-size: @h4FontSize; letter-spacing: -.0em; }
+h5, .h5 { font-size: @h5FontSize; letter-spacing: -.0em; }
+h6, .h6 { font-size: @h6FontSize; letter-spacing: -.0em; }

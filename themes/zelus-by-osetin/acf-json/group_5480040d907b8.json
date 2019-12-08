@@ -1,0 +1,799 @@
+{
+    "key": "group_5480040d907b8",
+    "title": "Theme Settings - Fonts",
+    "fields": [
+        {
+            "key": "field_548006666641f",
+            "label": "Font Library",
+            "name": "font_library",
+            "type": "select",
+            "instructions": "Select a library where to pick fonts from: Google Fonts ( http:\/\/www.google.com\/fonts ), Adobe Typekit ( http:\/\/www.typekit.com ) or custom fonts or custom external stylesheet",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "multiple": 0,
+            "allow_null": 0,
+            "choices": {
+                "google_fonts": "Google Web Fonts",
+                "adobe_typekit_fonts": "Adobe Typekit Fonts",
+                "external_stylesheet": "External Stylesheet",
+                "custom_fonts": "Custom Fonts"
+            },
+            "default_value": [
+                "google_fonts"
+            ],
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "return_format": "value"
+        },
+        {
+            "key": "field_56e8a346651d4",
+            "label": "Custom Font",
+            "name": "custom_font",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_548006666641f",
+                        "operator": "==",
+                        "value": "custom_fonts"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": 0,
+            "max": 0,
+            "layout": "row",
+            "button_label": "Add Font",
+            "collapsed": "field_56e8a814651d5",
+            "sub_fields": [
+                {
+                    "key": "field_56e8a814651d5",
+                    "label": "Font Family Name",
+                    "name": "font_family_name",
+                    "type": "text",
+                    "instructions": "The name you will use in css and other font settings on this form.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_56e8a844651d6",
+                    "label": "Font File URL Woff Format",
+                    "name": "font_woff",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_56e8a85f651d7",
+                    "label": "Font File URL Woff2 Format",
+                    "name": "font_woff2",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_56e8a880651d9",
+                    "label": "Font Weight",
+                    "name": "font_weight",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "readonly": 0,
+                    "disabled": 0
+                }
+            ]
+        },
+        {
+            "key": "field_581547401abf9",
+            "label": "Custom Stylesheet URL",
+            "name": "custom_stylesheet_url",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_548006666641f",
+                        "operator": "==",
+                        "value": "external_stylesheet"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_548010d1969ea",
+            "label": "Google Fonts HREF value",
+            "name": "google_fonts_href",
+            "type": "text",
+            "instructions": "Paste the href link VALUE (like: https:\/\/fonts.googleapis.com\/css?family=Playfair+Display:400i|Heebo:300,700) you receive from google fonts generator (https:\/\/www.google.com\/fonts) or you can leave it blank to use default theme's fonts",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_548006666641f",
+                        "operator": "==",
+                        "value": "google_fonts"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "https:\/\/fonts.googleapis.com\/css?family=Playfair+Display:400i|Heebo:300,700",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_548010b4969e9",
+            "label": "Adobe Typekit ID",
+            "name": "adobe_typekit_id",
+            "type": "text",
+            "instructions": "Paste the typekit code here (more info: http:\/\/help.typekit.com\/customer\/portal\/articles\/6780-adding-fonts-to-your-site)",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_548006666641f",
+                        "operator": "==",
+                        "value": "adobe_typekit_fonts"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5480041a6641c",
+            "label": "Headings Font Family",
+            "name": "headings_font_family",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "'Heebo', sans-serif",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5545e21f0d042",
+            "label": "Headings Font Weight - Normal",
+            "name": "headings_font_weight_normal",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 300,
+            "min": "",
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5545e26a0d043",
+            "label": "Headings Font Weight - Bold",
+            "name": "headings_font_weight_bold",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 700,
+            "min": "",
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_55b1b269a3882",
+            "label": "Alternative Font Family",
+            "name": "alternative_font_family",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "'Playfair Display', serif",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_55b1b4a3a3884",
+            "label": "Alternative Font Weight - Normal",
+            "name": "alternative_font_weight_normal",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 400,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_55b1b48ca3883",
+            "label": "Alternative Font Weight - Bold",
+            "name": "alternative_font_weight_bold",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 400,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_548005ca6641d",
+            "label": "Text Font Family",
+            "name": "text_font_family",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "'Heebo', sans-serif",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5545de250d040",
+            "label": "Text Font Weight - Normal",
+            "name": "text_font_weight_normal",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 300,
+            "min": "",
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5545e20d0d041",
+            "label": "Text Font Weight - Bold",
+            "name": "text_font_weight_bold",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 700,
+            "min": "",
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5817dc28fd6a6",
+            "label": "Quotes Font Family",
+            "name": "italic_font_family",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "'Playfair Display', serif",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5817dc66fd6a7",
+            "label": "Quotes Font Weight",
+            "name": "italic_font_weight",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 400,
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5a18c2ce6c465",
+            "label": "Quotes Font Style",
+            "name": "italic_font_style",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "italic": "Italic",
+                "normal": "Normal"
+            },
+            "default_value": [
+                "italic"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_548005dc6641e",
+            "label": "Menu Font Family",
+            "name": "menu_font_family",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "'Heebo', sans-serif",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5545e2840d044",
+            "label": "Menu Font Weight - Normal",
+            "name": "menu_font_weight_normal",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 300,
+            "min": "",
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5545e2b90d045",
+            "label": "Menu Font Weight - Bold",
+            "name": "menu_font_weight_bold",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 400,
+            "min": "",
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_54801eb3e7dc9",
+            "label": "Text Base Font Size",
+            "name": "base_font_size",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 1,
+            "min": "0.1",
+            "max": 100,
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "rem"
+        },
+        {
+            "key": "field_5545ecc31d9ad",
+            "label": "Main Menu Base Font Size",
+            "name": "main_menu_base_font_size",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "1.2",
+            "min": "",
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "rem"
+        },
+        {
+            "key": "field_558b8fbec4f40",
+            "label": "Headings Base Font Size",
+            "name": "headings_base_font_size",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "1.2",
+            "min": "",
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "rem"
+        },
+        {
+            "key": "field_55b1b58ee913e",
+            "label": "Alternative Base Font Size",
+            "name": "alternative_base_font_size",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "1.2",
+            "min": "",
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "rem"
+        },
+        {
+            "key": "field_5817dd4afd6a8",
+            "label": "Quotes Font Base Font Size",
+            "name": "italic_base_font_size",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "1.4",
+            "placeholder": "",
+            "prepend": "",
+            "append": "rem",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5518a495a3a8c",
+            "label": "H1 Font Size",
+            "name": "h1_font_size",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 3,
+            "min": 1,
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "rem"
+        },
+        {
+            "key": "field_5518a502a3a8d",
+            "label": "H2 Font Size",
+            "name": "h2_font_size",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "2.5",
+            "min": 1,
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "rem"
+        },
+        {
+            "key": "field_5518a511a3a8e",
+            "label": "H3 Font Size",
+            "name": "h3_font_size",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "2.25",
+            "min": 1,
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "rem"
+        },
+        {
+            "key": "field_5518a520a3a8f",
+            "label": "H4 Font Size",
+            "name": "h4_font_size",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 2,
+            "min": 1,
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "rem"
+        },
+        {
+            "key": "field_5545e7099df1a",
+            "label": "H5 Font Size",
+            "name": "h5_font_size",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "1.75",
+            "min": 1,
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "rem"
+        },
+        {
+            "key": "field_5545e71e9df1b",
+            "label": "H6 Font Size",
+            "name": "h6_font_size",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "1.25",
+            "min": 1,
+            "max": "",
+            "step": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "rem"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-fonts"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "field",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1523317757
+}

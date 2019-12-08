@@ -1,0 +1,24 @@
+/*
+Theme Name: Zelus by Osetin Child
+Theme URI: http://zelus.pinsupreme.com
+Author: Tamik Soziev
+Author URI: http://pinsupreme.com/
+Template: zelus-by-osetin
+Description: Child of Zelus Wordpress theme by Osetin.
+Version: 1.0.0
+License:
+License URI:
+Tags:
+Text Domain: zelus-by-osetin-child
+*/
+
+.homepage-process{
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.os-slider-w .slider-controls .control-slide .cs-icon {
+    color: #193f6e !important;
+}
+
